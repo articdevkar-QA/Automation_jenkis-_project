@@ -3,10 +3,10 @@ package org.automationexercise.test.qa;
 
 
 import org.apache.logging.log4j.Logger;
-import org.automationexercise.base.qa.BaseTest;
 import org.automationexercise.base.qa.Driverlaunch;
 import org.automationexercise.page.qa.AddToCart;
 import org.automationexercise.page.qa.Loginpage;
+import org.automationexercise.test.base.qa.BaseTest;
 import org.automationexercise.utils.qa.Logutils;
 import org.testng.annotations.Test;
 
