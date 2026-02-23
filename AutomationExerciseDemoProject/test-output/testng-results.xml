@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-23T17:07:08 IST" name="Suite" finished-at="2026-02-23T17:07:33 IST" duration-ms="24757">
+  <suite started-at="2026-02-23T21:35:01 IST" name="Suite" finished-at="2026-02-23T21:35:39 IST" duration-ms="38131">
     <groups>
     </groups>
-    <test started-at="2026-02-23T17:07:08 IST" name="Test" finished-at="2026-02-23T17:07:33 IST" duration-ms="24757">
+    <test started-at="2026-02-23T21:35:01 IST" name="Test" finished-at="2026-02-23T21:35:39 IST" duration-ms="38131">
       <class name="org.automationexercise.test.qa.PaymentTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:org.automationexercise.test.qa.PaymentTest@46e8a539]" started-at="2026-02-23T17:07:09 IST" name="setup" finished-at="2026-02-23T17:07:14 IST" duration-ms="5818" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:org.automationexercise.test.qa.PaymentTest@710b30ef]" started-at="2026-02-23T21:35:01 IST" name="setup" finished-at="2026-02-23T21:35:07 IST" duration-ms="6182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="paymenttest()[pri:0, instance:org.automationexercise.test.qa.PaymentTest@46e8a539]" started-at="2026-02-23T17:07:14 IST" name="paymenttest" finished-at="2026-02-23T17:07:33 IST" duration-ms="18089" status="PASS">
+        <test-method signature="paymenttest()[pri:0, instance:org.automationexercise.test.qa.PaymentTest@710b30ef]" started-at="2026-02-23T21:35:07 IST" name="paymenttest" finished-at="2026-02-23T21:35:39 IST" duration-ms="31232" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- paymenttest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automationexercise.test.qa.PaymentTest@46e8a539]" started-at="2026-02-23T17:07:33 IST" name="tearDown" finished-at="2026-02-23T17:07:33 IST" duration-ms="678" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.automationexercise.test.qa.PaymentTest@710b30ef]" started-at="2026-02-23T21:35:39 IST" name="tearDown" finished-at="2026-02-23T21:35:39 IST" duration-ms="353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
