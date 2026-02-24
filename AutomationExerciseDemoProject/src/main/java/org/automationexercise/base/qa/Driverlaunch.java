@@ -6,10 +6,10 @@ import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+
 import org.openqa.selenium.firefox.FirefoxDriver;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class Driverlaunch 
 {
@@ -41,18 +41,16 @@ public class Driverlaunch
 
 	     if (browser.equalsIgnoreCase("chrome")) 
 	     {
-	         //driver = new ChromeDriver();
-	    	 WebDriverManager.chromedriver().setup();
+	         driver = new ChromeDriver();
+	    	 /*WebDriverManager.chromedriver().setup();
 
-	            // Chrome options for CI / headless
-	            ChromeOptions options = new ChromeOptions();
-	            options.addArguments("--headless"); // Required in CI
-	            options.addArguments("--no-sandbox"); // Required in Linux runners
-	            options.addArguments("--disable-dev-shm-usage"); // Prevent crashes
-	            options.addArguments("--disable-gpu"); // Optional
-	            options.addArguments("--window-size=1920,1080"); // Optional
+	         // Chrome options for headless Jenkins execution
+	         ChromeOptions options = new ChromeOptions();
+	         options.addArguments("--headless"); // Run without GUI
+	         options.addArguments("--disable-gpu"); // Optional for Windows
+	         options.addArguments("--window-size=1920,1080"); // Prevent resolution issues
 
-	            driver = new ChromeDriver(options);
+	         // driver = new ChromeDriver(options);*/
 	     }
 	     else if(browser.equals("firefox")) 
 	     {
